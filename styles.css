@@ -10,10 +10,15 @@ h1 {
 p {
     padding-top: 0;
     margin-top: 0;
+    
+    padding-left: 3;
+    padding-right: 3;
+    margin-left: 3;
+    margin-right: 3;
 }
 
 .mainStrip {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     padding: 3px;
     
