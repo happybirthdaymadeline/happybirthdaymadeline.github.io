@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Multiple Choice</title>
+        <link rel="icon" src="../res/favicon.png">
+            <link rel="stylesheet" type="text/css" href="../styles.css">
+                <script src="../mechanics.js"></script>
+                </head>
+    
+    <body background="../res/indexBackground.jpg">
+        
+        <div class="mainStrip">
+            <h1>Multiple Choice :)</h1>
+            
+            <br>
+            
+            <form name="choiceForm" onsubmit='submitChoiceAnswer()' align="center" style="margin: 0 auto; width: auto;">
+                <h3>We all know you're perfect, but how perfect are you?</h3>
+                <input type="radio" id="a1" value="100%" onclick="toggle(this)">100%
+                <input type="radio" id="a2" value="100%" onclick="toggle(this)">100%
+                <input type="radio" id="a3" value="100%" onclick="toggle(this)">100%
+                <input type="radio" id="a4" value="&infin;%" onclick="toggle(this)">&infin;%
+                <input type="submit" value="Submit">
+            </form>
+            
+            <br>
+        </div>
+        
+    </body>
+    
+</html>
