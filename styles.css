@@ -37,4 +37,5 @@ p {
     color: #33ccff; /* light blue color */
     background-color: #cc66ff; /* lavender color */
     border: 3px solid #33ccff;
+    bottom: 0;
 }

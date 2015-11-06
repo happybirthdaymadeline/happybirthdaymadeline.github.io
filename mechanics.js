@@ -60,12 +60,19 @@ function toggle(elem) {
 
 function submitQAnswer() {
     
-    var message = document.getElementById("starbucksPref").value;
-    var subject = "From Madeline!";
+    var flavor = document.getElementById("starbucksPref").value;
     
-    window.open("mailto:brayden14cloud@gmail.com?subject="
-    + encodeURIComponent(subject)
-    + "&body=" + encodeURIComponent(message));
+    window.alert("Well text me right now and I'll buy you a " + flavor + " right now.\nHere's your letter(: R");
     
-    window.alert(document.location.href);
+}
+
+function passwordGuess() {
+    var guess = document.getElementById("guess").value
+    
+    if(guess.toLowerCase() == "madi") {
+        window.location="letter.txt";
+    }
+    else {
+        window.alert("Nope! Did you decrypt it?");
+    }
 }
